@@ -1,0 +1,101 @@
+@font-face {
+	font-family: vazir;
+	src: url(../fonts/Vazir-Thin.woff2);
+}
+*{
+	box-sizing: border-box;
+	font-family: vazir;
+}
+html{
+	direction: rtl;
+}
+main{
+	margin-top: 60px;
+}
+body{
+	background-image: url(images/background.jpg);
+	background-color: #cccccc;
+}
+#convert{
+	width: 100px;
+	height: 100px;
+  	margin: 0 auto;
+}
+#quantity{
+	width: 256px;
+	height: 40px;
+	border-radius: 10px ;
+	margin-bottom: 25px;
+	text-align: center;
+}
+#quantity:hover{
+	background-color: #24D86B;
+	box-shadow: 1px 1px 2px 0px green;
+}
+#from{
+	text-align: center;
+}
+#to{
+	text-align: center;
+}
+#value{
+	width: 256px;
+	height: 40px;
+	border-radius: 10px ;
+	margin-bottom: 25px;
+}
+#value:hover{
+	background-color: #24D86B;
+}
+#from{
+	width: 256px;
+	height: 40px;
+	border-radius: 10px ;
+	margin-bottom: 25px;
+}
+#from:hover{
+	background-color: #24D86B;
+	box-shadow: 1px 1px 2px 0px green;
+}
+#to{
+	width: 256px;
+	height: 40px;
+	border-radius: 10px ;
+	margin-bottom: 25px;
+}
+#to:hover{
+	background-color: #24D86B;
+	box-shadow: 1px 1px 2px 0px green;
+}
+#answer{
+	width: 256px;
+	height: 100px;
+	border-radius: 10px ;
+	margin-bottom: 25px;
+	resize: none;
+	text-align: center;
+	color: purple;
+	font-weight: bold;
+}
+#answer:hover{
+	background-color: #24D86B;
+}
+#button{
+	width: 140px;
+	margin-right: 58px;
+	border-radius: 10px;
+	background-color: #24D86B;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px; 
+  	transition-duration: 0.4s;
+}
+#button:hover{
+	background-color: #4CAF50;
+	box-shadow: 1px 1px 2px 0px green;
+ 	color: white;
+}
